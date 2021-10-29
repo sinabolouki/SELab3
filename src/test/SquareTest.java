@@ -1,4 +1,4 @@
-import main.Rectangle;
+import main.Square;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -12,7 +12,7 @@ public class SquareTest {
     @Test
     public void changeSideTest() {
         Square square = new Square(30);
-        square.changeSide(20);
+        square.setSide(20);
         Assert.assertEquals(square.getArea(), 400, 0.001);
     }
 }
