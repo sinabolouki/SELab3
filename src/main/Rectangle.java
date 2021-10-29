@@ -1,6 +1,6 @@
 package main;
 
-public class Rectangle {
+public class Rectangle extends Polygon {
     private double height;
     private double width;
 

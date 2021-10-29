@@ -1,6 +1,6 @@
 package main;
 
-public class Square {
+public class Square extends Polygon {
     private double side;
 
     public Square(double side) {
